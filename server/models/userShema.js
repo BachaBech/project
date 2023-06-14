@@ -31,11 +31,7 @@ const userSchema = new mongoose.Schema({
     type: Boolean,
     default : false
   }
-  ,
-  image: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Image"
-  }
+  
 }  ,
 { timestamps: true });
 
