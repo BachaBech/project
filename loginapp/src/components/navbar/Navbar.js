@@ -47,7 +47,7 @@ const Navbar = ({ ping }) => {
             <a class="navbar-brand mt-2 mt-lg-0" href={!isAdmin && token && "/"}>
               <img
                 className="drr"
-                src="*https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPJnXGw0FumgEPeEq9WU8AGQQTJ2x-0FmhRcKFl-ttZQ&s"
+                src="https://static.wixstatic.com/media/558f8a_0d3e12a204df406380fcee16f35f23aa~mv2.jpg/v1/fit/w_2500,h_1330,al_c/558f8a_0d3e12a204df406380fcee16f35f23aa~mv2.jpg"
                 alt="ISET Logo"
                 loading="lazy"
               />
