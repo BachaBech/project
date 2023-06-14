@@ -23,9 +23,32 @@ const Count = ()=>{
     })
 return nbr
 }
-const nbruser= Count()
 
+const Countt = ()=>{
+  var nbr = 0;
+  
+    allusers.filter((el)=>{
+      if (el.role=="tea") {
+        nbr +=1
+      }
+    })
+return nbr
+}
+const CountE = ()=>{
+  var nbr = 0;
+  
+    allusers.filter((el)=>{
+      if (el.role=="std") {
+        nbr +=1
+      }
+    })
+return nbr
+}
+const nbruser= Count();
 
+const nbrt= Countt();
+
+const nbre= CountE();
 
 
 
@@ -94,7 +117,9 @@ console.log(allusers);
                   </span>
                   <div className="info-box-content">
                     <span className="info-box-text">teachers</span>
-                    <span className="info-box-number"></span>
+                    <span className="info-box-number">
+                      {nbrt}
+                    </span>
                   </div>
                   {/* /.info-box-content */}
                 </div>
@@ -110,7 +135,9 @@ console.log(allusers);
                   </span>
                   <div className="info-box-content">
                     <span className="info-box-text">Students</span>
-                    <span className="info-box-number"></span>
+                    <span className="info-box-number">
+                      {nbre}
+                    </span>
                   </div>
                   {/* /.info-box-content */}
                 </div>

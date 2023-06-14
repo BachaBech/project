@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Dash.css'
+
+
 const SideBar = () => {
   return (
     <div>
@@ -23,7 +25,7 @@ const SideBar = () => {
           <div className="user-panel mt-3 pb-3 mb-3 d-flex">
             <div className="">
               <a  className="d-block">
-               ADMIN
+               Admin Menu
               </a>
             </div>
           </div>
